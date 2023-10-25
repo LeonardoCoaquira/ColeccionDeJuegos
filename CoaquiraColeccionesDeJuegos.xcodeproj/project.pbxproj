@@ -14,6 +14,7 @@
 		165B14A32AE87FC800CAD5AF /* CoaquiraColeccionesDeJuegos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 165B14A12AE87FC800CAD5AF /* CoaquiraColeccionesDeJuegos.xcdatamodeld */; };
 		165B14A52AE87FD000CAD5AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165B14A42AE87FD000CAD5AF /* Assets.xcassets */; };
 		165B14A82AE87FD000CAD5AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165B14A62AE87FD000CAD5AF /* LaunchScreen.storyboard */; };
+		79A976782AE896330082860E /* JuegosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A976772AE896320082860E /* JuegosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		165B14A42AE87FD000CAD5AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		165B14A72AE87FD000CAD5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		165B14A92AE87FD000CAD5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A976772AE896320082860E /* JuegosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				165B14A62AE87FD000CAD5AF /* LaunchScreen.storyboard */,
 				165B14A92AE87FD000CAD5AF /* Info.plist */,
 				165B14A12AE87FC800CAD5AF /* CoaquiraColeccionesDeJuegos.xcdatamodeld */,
+				79A976772AE896320082860E /* JuegosViewController.swift */,
 			);
 			path = CoaquiraColeccionesDeJuegos;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A976782AE896330082860E /* JuegosViewController.swift in Sources */,
 				165B149D2AE87FC800CAD5AF /* ViewController.swift in Sources */,
 				165B14992AE87FC800CAD5AF /* AppDelegate.swift in Sources */,
 				165B14A32AE87FC800CAD5AF /* CoaquiraColeccionesDeJuegos.xcdatamodeld in Sources */,
