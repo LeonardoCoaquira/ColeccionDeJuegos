@@ -34,7 +34,7 @@
                     <navigationItem key="navigationItem" id="WuD-lg-H1A">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="vm4-pc-uqR">
                             <connections>
-                                <segue destination="SFO-tm-eM0" kind="show" id="GDN-Vn-0lk"/>
+                                <segue destination="SFO-tm-eM0" kind="show" identifier="juegoSegue" id="GDN-Vn-0lk"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -67,6 +67,15 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Agregar"/>
                                 <connections>
                                     <action selector="agregarTapped:" destination="SFO-tm-eM0" eventType="touchUpInside" id="WvE-ix-oFf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ey0-xf-lrW">
+                                <rect key="frame" x="170" y="414" width="76" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Eliminar"/>
+                                <connections>
+                                    <action selector="eliminarTapped:" destination="SFO-tm-eM0" eventType="touchUpInside" id="2OD-oc-nmS"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingrese un titulo" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nl0-Kd-BqQ">
@@ -102,13 +111,15 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="agregarActualizarBoton" destination="USG-XI-RQh" id="OpD-AI-haF"/>
+                        <outlet property="eliminarBoton" destination="Ey0-xf-lrW" id="Pl2-hl-HMo"/>
                         <outlet property="imageView" destination="s32-6K-2Fi" id="jl0-ql-knO"/>
                         <outlet property="tituloTextField" destination="nl0-Kd-BqQ" id="CXw-vi-jwq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2lk-0c-NpF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1597" y="104"/>
+            <point key="canvasLocation" x="1595.6521739130435" y="103.53260869565219"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="SGP-dR-rhC">
